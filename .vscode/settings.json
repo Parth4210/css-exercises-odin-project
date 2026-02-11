@@ -1,0 +1,51 @@
+{
+    "editor.suggest.enabled": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.parameterHints.enabled": true,
+    "editor.inlayHints.enabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.suggest.enabled": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features",
+        "editor.suggest.enabled": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.suggest.enabled": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.suggest.enabled": true
+    },
+    "css.lint.enabled": true,
+    "html.validate.styles": true,
+    "html.validate.scripts": true,
+    "javascript.suggest.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "typescript.suggest.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    }
+}
